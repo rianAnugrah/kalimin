@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Inbox(props) {
+export default function Home() {
     return (
         <div>
-            Inbox
+            Kalimin.com
         </div>
     )
 }

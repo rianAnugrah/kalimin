@@ -8,7 +8,7 @@ export default class Api {
     this.token = null;
     this.client = null;
     // this.api_url = process.env.REACT_APP_API_URL;
-    this.api_url = "http://localhost:5000";
+    this.api_url = "https://vail-api.herokuapp.com/";
   }
 
   init = () => {
