@@ -70,7 +70,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -88,7 +88,7 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -97,7 +97,7 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -123,16 +123,17 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
+                      Rian Anugrah{" "}
                       <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Jakarta, Indonesia
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Javascript Developer -{" "}
+                      <a href="https://www.theravenry.com">Ravenry</a>
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
@@ -149,7 +150,7 @@ class Profile extends React.Component {
                           giving it a warm, intimate feel with a solid groove
                           structure. An artist of considerable range.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           Show more
                         </a>
                       </Col>
