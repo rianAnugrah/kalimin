@@ -33,22 +33,31 @@ export default function AwesomeFeature(props) {
         <Container>
           <Row className="row-grid align-items-center">
             <Col className="order-md-2" md="6">
-              <img
+              {/* <img
                 alt="..."
                 className="img-fluid floating"
-                src={require("assets/img/theme/promo-1.png")}
-              />
+                src={require("assets/img/landing/platformer.png")}
+              /> */}
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/6PYH6U67LQQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </Col>
             <Col className="order-md-1" md="6">
               <div className="pr-md-5">
-                <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+                {/* <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                   <i className="ni ni-settings-gear-65" />
-                </div>
-                <h3>Awesome features</h3>
+                </div> */}
+                <h3>Awesome gameplay</h3>
                 <p>
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go.
+                  The game we built are carefully crafted by talented developer
+                  and artist. with Html5 and javascript technology you can play
+                  our games anytime anywhere across platform with play on
+                  browser capability.
                 </p>
                 <ul className="list-unstyled mt-5">
                   <li className="py-2">
@@ -59,7 +68,7 @@ export default function AwesomeFeature(props) {
                         </Badge>
                       </div>
                       <div>
-                        <h6 className="mb-0">Carefully crafted components</h6>
+                        <h6 className="mb-0">Carefully crafted gameplay</h6>
                       </div>
                     </div>
                   </li>
@@ -71,7 +80,7 @@ export default function AwesomeFeature(props) {
                         </Badge>
                       </div>
                       <div>
-                        <h6 className="mb-0">Amazing page examples</h6>
+                        <h6 className="mb-0">Cross platform</h6>
                       </div>
                     </div>
                   </li>

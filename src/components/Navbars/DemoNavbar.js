@@ -67,7 +67,7 @@ class DemoNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-main navbar-transparent navbar-dark headroom bg-primary"
             expand="lg"
             id="navbar-main"
           >
@@ -263,7 +263,7 @@ class DemoNavbar extends React.Component {
                       Star me on Github
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
+                  {/* <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-icon"
                       color="warning"
@@ -277,7 +277,7 @@ class DemoNavbar extends React.Component {
                         Become a patron
                       </span>
                     </Button>
-                  </NavItem>
+                  </NavItem> */}
                 </Nav>
               </UncontrolledCollapse>
             </Container>
