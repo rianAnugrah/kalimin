@@ -39,8 +39,7 @@ export default function AwesomeFeature(props) {
                 src={require("assets/img/landing/platformer.png")}
               /> */}
               <iframe
-                width="560"
-                height="315"
+                style={{ width: "100%", height: "300px" }}
                 src="https://www.youtube.com/embed/6PYH6U67LQQ"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
